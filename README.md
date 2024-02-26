@@ -16,4 +16,17 @@ cd nextjs-auth-ex6/
 npm install typescript ts-node @types/node --save-dev
 npm install prisma --save-dev
 npx prisma init --datasource-provider postgresql
+
+npx prisma generate
+npx prisma db push
+npx prisma studio
+
+npm install bcryptjs
+npm install --save-dev @types/bcryptjs
+npm install jose
+
+npx shadcn-ui@latest init
+npx shadcn-ui@latest add button
+
+openssl rand -hex 12
 ```
